@@ -101,7 +101,7 @@ int main()
             arrow.setVelocity(Vector2f(0, 0));
             arrow.setCenter(Vector2f(400, 700));
         }
-        };
+    };
 
     // Load the font for the text boxes
     Font fnt;
@@ -210,7 +210,7 @@ int main()
                         world.RemovePhysicsBody(duck);
                         ducks.QueueRemove(duck);
                     }
-                    };
+                };
             } // if (duckMS > 2000)
         } // while ((arrows > 0) || drawingArrow)
 
